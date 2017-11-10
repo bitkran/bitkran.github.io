@@ -52,6 +52,10 @@ body{
 #mid h2 {
 	text-align: center;
 }
+#mid h2 a {
+	text-decoration: none;
+	color: aliceblue;
+}
 #mid table {
 	margin: 50px auto;
 	width: 1150px;
