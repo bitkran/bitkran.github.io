@@ -1,0 +1,133 @@
+/* CSS Document */
+
+body{
+	padding:0;
+	margin:0;
+	background:url(images/header_bg.gif) 0 0 repeat-x #292929;
+	color:#D3D3D3;
+}
+
+.spacer{
+	clear:both; 
+	font-size:0px; 
+	line-height:0px;
+}
+/*------------------------------------------------body--------------------*/
+
+/*------------------------------------------------header start-------------------*/
+#header{
+	width:900px;
+	margin:0 auto;
+	background:url(images/logoBit3.png) 0px 23px no-repeat;
+	height:188px;
+	position:relative;
+}
+#header tr {
+	height: 160px;
+}
+#header .logo {
+	width: 200px;
+}
+#header .btcKurs {
+	width: 300px;
+	vertical-align: middle;
+}
+
+
+
+
+/*------------------------------------------------header end-------------------*/
+
+
+
+/*------------------------------------------------body mid part start-------------------*/
+
+
+#mid {
+	width: 1200px;
+	margin: 10px auto;
+	padding: 20px;
+	
+}
+#mid h2 {
+	text-align: center;
+}
+#mid table {
+	margin: 50px auto;
+	width: 1150px;
+	border: solid 1px #F7F5F5;
+	border-collapse: collapse;
+}
+
+#mid .linkSite a {
+	color: #B8860B;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.linkSiteFaucet {
+	color: #B8860B;
+	text-decoration: none;
+		
+}
+
+
+.button a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 15px 25px;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.4s ease-in-out;
+  border-radius: 10px;
+  color: #B8860B;
+  box-shadow: inset 0 -5px 0 #B8860B;
+}
+
+.button a:hover {
+  box-shadow: inset 0 -60px 0 #B8860B, 2px 2px 3px rgba(0,0,0,0.3);
+  color: #DECDA5;
+}
+#mid th {
+	text-align: center;
+	border: solid 1px #FBF8F8;
+	padding: 15px;
+	background: #104560 
+	}
+
+#mid td {
+	text-align: center;
+	border: solid 1px #FBF8F8;
+	padding: 7px;
+}
+
+
+
+
+/*------------------------------------------------body mid part end------------------*/
+
+
+/*------------------------------------------------footer start------------------*/
+#footer-main {
+	width:100%;
+	background:url(images/navi_h_bg.gif) 0 0 repeat-x;
+	height:90px;
+	padding:24px 0 0 0;
+}
+
+#footer {
+	width: 400px;
+	margin: 30px auto;
+}
+
+#footer a {
+	color: #B8860B;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*------------------------------------------------footer end------------------*/
